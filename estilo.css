@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.topo {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.topo img {
+    width: 120px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.link-list {
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+    bottom: 15px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.link-list a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.capa {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg-estacao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-capa {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main div {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+h3 {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#sobre img {
+    width: 100%;
+
+}
+
+p {
+    text-align: left;
+    line-height: 30px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#sobre p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#pontosTuristicos {
+    background-color: rgb(234, 236, 238);
+    position: relative;
+}
+
+.secao2 img {
+    width: 100%;
+}
+
+.secao2 p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secao2 ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0 0 0;
+}
+
+.secao2 li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("img/seta.png");
+    margin-right: 20px;
+}
+
+
+.img-galeria {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-galeria img {
+    width: calc((100% / 3) - 10px);
+    opacity: 0.6;
+}
+
+.img-galeria img:hover {
+    opacity: 1;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(224, 203, 10, 0.877);
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+}
